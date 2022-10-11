@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Portfolio</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -87,5 +87,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://portfolioedd.netlify.app/)
+- Website [Portfolio](https://portfolioedd.netlify.app/)
 - GitHub [@JAMESBLUM](https://{https://github.com/JAMESBLUM})
