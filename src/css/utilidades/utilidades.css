@@ -1,0 +1,51 @@
+.espacio{padding-top: 5rem;}
+.bg-white{background-color: #fff;}
+/* CREA BARRAS DE PROGRESO */
+.progressBar{
+    width: 100%;
+    background-color: #c4c4c4;
+}
+@media (min-width: 1200px) {.progressBar{width: 50%;}}
+.progress{background-color: #2F80ED;}
+.progressBar, .progress{border-radius: 1rem;}
+.textoGris{color: #E0E0E0;}
+/* IMAGENES DE FONDO DE LA SECCION HOBBIES */
+.hobby-img{
+    width: 100%;
+    height: 14rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+.Padding-border{
+    padding: 2.2rem;
+    border-radius: 1rem;
+}
+/* ESTILO DE BOTONES */
+.btn-principal{
+    padding: .5rem 2rem;
+    text-align: center;
+    border: solid .1rem #4F4F4F;
+    color: #4F4F4F;
+    background-color: transparent;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.btn-secundary{
+    padding: 1rem 3rem;
+    text-align: center;
+    border: solid .1rem var(--blue);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.btn-bg-blue{background-color: var(--blue); color: white;}
+.btn-bg-white{color: var(--blue); background-color: #fff;} 
+
+.here, .btn-principal:hover{
+    background-color: var(--blue);
+    border-color: var(--blue);
+    color: #fff;
+}
+.btn-principal:hover{transition: ease .2s;}
+
